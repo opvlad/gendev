@@ -18,3 +18,8 @@ object2 = {
     age: 20
 }
 
+
+const createUser = (name, city) => {
+    return {name, city}
+}
+
