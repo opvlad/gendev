@@ -5,7 +5,7 @@ const max = (array) => {
 
     for (const i of array) {
         for (const j of i) {
-            if (j > maxValue) {maxValue = j}
+            if (j > maxValue) maxValue = j
         }
     }
 
